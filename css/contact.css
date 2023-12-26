@@ -1,0 +1,282 @@
+
+:root {
+	--base-space: 1.25rem;
+}
+
+* {
+	box-sizing: border-box;
+  }
+
+  body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-toggle {
+    position: fixed;
+    top: 65px;
+    right: 0px;
+    text-decoration: none;
+    color: rgb(129,185,222);
+    display: flex;
+    cursor: pointer;
+    font-family: 'Hubballi';
+    font-size: 2.5rem;
+  }
+
+  .change-text {
+    opacity: 0;
+  }
+
+  .menu-icon {
+    margin-top: 2.5%;
+    margin-right: 20px;
+    color: rgb(129,185,222);
+  }  
+
+  .menu-icon-mobile {
+    display: none;
+  }
+
+  .menu-text {
+    margin-right: -35px;
+  }
+
+  .sabine-camhi {
+    font-family: 'Codystar';
+    font-size: 6.25rem;
+    color: rgb(129,185,222);
+    margin: 30px 0 100px 33px;
+    white-space: nowrap;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hubballi';
+    flex-wrap: wrap;
+}
+
+  .info-box {
+    display: flex;
+    background-color: rgb(129,185,222);
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+  .info-left {
+  color: #fff;
+  margin: 0 100px 15px 0;
+}
+
+ .info-left h2 {
+   font-size: 40px;
+   margin-top: 10px;
+}
+
+.contact-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.contact-line p {
+  margin: 0 10px 40px 0;
+  font-size: 1.4rem;
+}
+
+.contact-line p:nth-child(2),
+.contact-line p:nth-child(4) {
+    text-decoration: underline;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.phone-link,
+.email-link {
+    cursor: pointer;
+}
+
+
+.info-form {
+  margin-left: 40px;
+}
+
+.info-form label {
+  font-size: 1.4rem;
+  vertical-align: middle;
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.info-form input, 
+.info-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  background-color: azure;
+}
+
+.info-form textarea {
+  resize: none;
+}
+
+.info-form div {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.info-form label::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(129,185,222);
+  bottom: 0;
+  left: 0;
+}
+
+.message-group {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.message-group label {
+  margin-top: 8px;
+}
+
+button {
+  background-color: azure;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  color: black;
+  padding: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  background-color: rgb(185, 214, 227);
+}
+
+
+
+@media (min-width: 721px) and (max-width: 1080px) {
+  .menu-toggle {
+    margin-top: 10%;
+  }
+
+  .info-box {
+    border-radius: 1px;
+    height: 300px;
+    width: 100vw;
+}
+
+.info-left {
+  margin-left: 28%;
+}
+
+  .info-form {
+    margin-top: 40px;
+  }
+
+}
+
+
+  @media (max-width: 720px) {
+
+    body {
+      overflow: hidden;  
+      margin: 0;
+  }
+  
+    .sabine-camhi {
+      font-size: 3rem;
+      margin: 25px 0 40px 0;
+      text-align: center;
+    }
+
+    .menu-toggle {
+      right: 7px;
+      font-size: 1.6rem;
+      margin-top: 3%;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .menu-icon-mobile {
+      display: inline;
+      font-weight: 700;
+      font-family: 'Hubballi';
+      margin-right: 8px;
+      margin-bottom: 2px;
+    }
+
+    .contact-info {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .contact-line p {
+    margin-bottom: 25px;
+    font-size: 1.25rem;
+  }
+
+  .info-box {
+    border-radius: 1px;
+    height: 200px;
+    width: 100vw;
+}
+
+.info-left h2 {
+  font-size: 1.8rem;
+  margin-left: 35%;
+  
+}
+
+.info-form {
+  margin-top: 30px;
+  margin-left: 5%;
+}
+
+.info-form input, .info-form textarea {
+  padding: 0;
+  margin-top: 2%;
+}
+
+    /* .info-form label {
+      display: block;
+    } */
+
+    .info-form label::after {
+      background-color: rgb(129,185,222);
+    }
+    
+    .message-group {
+      flex-direction: row;
+    }
+
+    .message-group label {
+      margin-top: 0;
+    }
+
+    button {
+      padding: 14px;
+      font-size: 1rem;
+      color: white;
+      border: none;
+      background-color: rgb(129,185,222);
+      margin-left: 30%;
+    }
+    
+}

@@ -1,0 +1,103 @@
+:root {
+	--base-space: 1.25rem;
+}
+
+* {
+	box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(115, 145, 165);
+  }
+
+  .new-menu-toggle {
+    position: fixed;
+    top: 65px;
+    right: 70px;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    display: flex;
+    cursor: pointer;
+    font-family: 'Hubballi';
+    font-size: 2.5rem;
+  }
+  
+  .menu-icon {
+    margin-top: 2.5%;
+    margin-right: 20px;
+  }  
+
+  .menu-icon-mobile {
+    display: none;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  .sabine-camhi {
+    font-family: 'Codystar';
+    font-size: 6rem;
+    color: rgb(233, 233, 233);
+    margin: 15px 0 70px 25px;
+  }
+
+  .menu-list {
+    font-family: 'Hubballi';
+    color: rgb(233, 233, 233);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    margin-left: 80px;
+  }
+  
+  .menu-list a {
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    font-size: 50px;
+    letter-spacing: 8px;
+    line-height: 1.5;
+  }
+
+  .menu-list li a:hover {
+    color: rgb(129,185,222);
+  }
+  
+
+  @media (max-width: 768px) {
+    .sabine-camhi {
+      font-size: 3.5rem;
+      margin-left: 1px;
+      margin-bottom: 65px;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .new-menu-toggle {
+      right: 20px;
+      font-size: 1.9rem;
+      margin-top: 0;
+      /* font-size: 35px; */
+    }
+
+    .menu-icon-mobile {
+      display: inline;
+      font-weight: 700;
+      font-family: 'Hubballi';
+      margin-right: 8px;
+      margin-bottom: 2px;
+    }
+
+    .menu-list li {
+      margin-left: 1px;
+    }
+
+    .menu-list a {
+      font-size: 2rem;
+    }
+  }

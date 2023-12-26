@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Hubballi&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <title>Contact</title>
+</head>
+<body>
+         <!-- Menu Toggle Link -->
+    <div class="container" onmouseover="change(this)" onmouseout="change(this)">
+      <a href="menu.html" class="menu-toggle" onmouseover="changeText(this, true)" onmouseout="changeText(this, false)">
+        <div class="menu-icon">&#10006;</div>
+        <div class="menu-icon-mobile">x</div>
+        <div class="menu-text">Menu</div>
+        <div class="change-text">Open</div>
+      </a>
+
+    <div class="header">
+        <h1 class="sabine-camhi">NÉO ÓRAMA</h1>
+    </div>
+
+    <section class="contact-info">
+      <div class="info-box">
+          <div class="info-left">
+            <h2>CONTACTS</h2>
+              <div class="contact-line">
+                    <p>PHONE</p>
+                    <p class="phone-link" onclick="makeCall('+306946104547')" onmouseover="changeCursor(this)">+306946104547</p>
+              </div>
+              <div class="contact-line">
+                    <p>EMAIL</p>
+                    <p class="email-link" onclick="openEmail('camhisabine@gmail.com')" onmouseover="changeCursor(this)">camhisabine@gmail.com</p>
+              </div>
+          </div>
+      </div>
+
+        <div class="info-form">
+                <form action="#" method="post">
+                  <div>
+                    <label for="name">Name</label>
+                    <input 
+                        type="text" 
+                        name="name"
+                        id="name" 
+                        placeholder="Enter your name"
+                    />
+                    </div>
+
+                    <div>
+                     <label for="email">Email</label>
+                     <input 
+                        type="email" 
+                        name="email"
+                        id="email" 
+                        placeholder="Enter your email"
+                     /> 
+                    </div>
+
+                    <div>
+                     <label for="subject">Subject</label>
+                     <input 
+                        type="text"
+                        name="subject" 
+                        id="subject"
+                        placeholder="Enter the subject"
+                     /> 
+                    </div>
+
+                    <div class="message-group">
+                     <label for="message">Message</label>
+                     <textarea 
+                        type="textarea"
+                        name="message"
+                        id="message" 
+                        rows="1"
+                        placeholder="Tell us about you"
+                     ></textarea>
+                    </div>
+
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="./js/menu.js"></script>
+</body>
+</html>

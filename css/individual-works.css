@@ -1,0 +1,127 @@
+
+:root {
+	--base-space: 1.25rem;
+}
+
+* {
+	box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin-bottom: 25px;
+  }
+
+  .menu-toggle {
+    position: fixed;
+    top: 65px;
+    right: 0;
+    text-decoration: none;
+    color: rgb(129,185,222);
+    display: flex;
+    cursor: pointer;
+    font-family: 'Hubballi';
+    font-size: 2.5rem;
+  }
+
+  .change-text {
+    opacity: 0;
+  }
+  
+  .menu-icon {
+    margin-top: 2.5%;
+    margin-right: 20px;
+    color: rgb(129,185,222);
+  }  
+
+  .menu-text {
+    margin-right: -35px;
+  }
+
+  .menu-icon-mobile {
+    display: none;
+  }
+
+  .sabine-camhi {
+    font-family: 'Codystar';
+    font-size: 6.25rem;
+    color: rgb(129,185,222);
+    margin: 30px 0 50px 25px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 650px;
+}
+
+.photo {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+}
+
+.info {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .info p {
+    margin: 0;
+    font-family: 'Hubballi';
+    color: rgb(129,185,222);
+    font-size: 1.7rem;
+    font-weight: 800;
+  }
+
+
+
+  @media (max-width: 720px) {
+
+    .sabine-camhi {
+      font-size: 2.8rem;
+      margin: 25px 0 30px;
+      text-align: center;
+    }
+
+    .menu-toggle {
+      right: 3px;
+      font-size: 1.6rem;
+      margin-top: 9px;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .menu-icon-mobile {
+      display: inline;
+      font-weight: 700;
+      font-family: 'Hubballi';
+      margin-right: 8px;
+      margin-bottom: 2px;
+    }
+
+    .info p {
+      font-size: 1.25rem;
+    }
+}

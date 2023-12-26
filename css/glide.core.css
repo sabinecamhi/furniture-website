@@ -1,0 +1,64 @@
+:root {
+	--base-space: 1.25rem;
+}
+
+* {
+	box-sizing: border-box;
+  }
+
+.glide my-glide {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.glide * {
+  box-sizing: inherit;
+}
+
+.glide__track {
+  overflow: hidden;
+}
+
+.glide__slides {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.glide__slide {
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.glide--rtl {
+  direction: rtl;
+}
+
+
+@media (max-width: 720px) {
+  body {
+    margin: 0;
+    padding: 0;
+  } 
+  
+  .main {
+    min-height: 500px;
+    max-height: 500px;
+  }
+
+  .glide__slides {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .glide__slide {
+    background-position: 80% 20%;
+  }
+}
