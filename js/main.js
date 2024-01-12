@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Set the interval for automatic slide change (4000 milliseconds = 4 seconds)
     setInterval(function () {
       glide.go('>');
-    }, 4000);
+    }, 2500);
   
     // ... your existing Glide initialization code
     glide.mount();
