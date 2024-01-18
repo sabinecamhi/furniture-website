@@ -35,11 +35,12 @@
     padding: 20px;
   }
 
-  .sabine-camhi {
-    font-family: 'Codystar';
-    font-size: 6rem;
-    color: rgb(233, 233, 233);
-    margin: 15px 0 70px 25px;
+ .logo {
+    margin: 0 0 20px 25px;
+  }
+
+  .logo-small {
+    display: none;
   }
 
   .menu-list {
@@ -68,21 +69,15 @@
   
 
   @media (max-width: 768px) {
-    .sabine-camhi {
-      font-size: 3.5rem;
-      margin-left: 1px;
-      margin-bottom: 65px;
-    }
 
     .menu-icon {
       display: none;
     }
 
     .new-menu-toggle {
-      right: 20px;
+      right: 30px;
       font-size: 1.9rem;
       margin-top: 0;
-      /* font-size: 35px; */
     }
 
     .menu-icon-mobile {
@@ -93,11 +88,24 @@
       margin-bottom: 2px;
     }
 
+	     .logo {
+      margin-left: 5px;
+      margin-bottom: 45px;
+    }
+
+    .logo-small {
+      display: inline;
+    }
+
+    .logo-big {
+      display: none;
+    }
+
     .menu-list li {
-      margin-left: 1px;
+      margin-left: 5px;
     }
 
     .menu-list a {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
