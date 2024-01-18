@@ -21,13 +21,17 @@
   .menu-toggle {
     position: fixed;
     top: 65px;
-    right: 0px;
+    right: 20px;
     text-decoration: none;
     color: rgb(233, 233, 233);
     display: flex;
     cursor: pointer;
     font-family: 'Hubballi';
     font-size: 2.5rem;
+  }
+
+  .menu-text {
+    margin-right: -35px;
   }
 
   .change-text {
@@ -40,20 +44,19 @@
     color: rgb(233, 233, 233);
   }  
 
-  .menu-text {
-    margin-right: -35px;
-  }
-
   .menu-icon-mobile {
     display: none;
   }
 
-  .sabine-camhi {
-    font-family: 'Codystar';
-    font-size: 6.25rem;
-    color: rgb(233, 233, 233);
-    margin: 30px 0 50px 25px;
+ .logo-big {
+    margin-top: 0;
+    margin-left: 33px;
   }
+
+  .logo-small {
+    display: none;
+  }
+
 
   .image-container {
     display: flex;
@@ -124,20 +127,14 @@
       margin: 0 10px 15px 10px;
     }
 
-    .sabine-camhi {
-      font-size: 2.8rem;
-      margin: 25px 0 30px 9px;
-      text-align: left;
+  .menu-icon {
+      display: none;
     }
-
+	  
     .menu-toggle {
       right: 1px;
-      font-size: 1.6rem;
-      margin-top: 9px;
-    }
-
-    .menu-icon {
-      display: none;
+      font-size: 1.9rem;
+      margin-top: 0px;
     }
 
     .menu-icon-mobile {
@@ -146,6 +143,18 @@
       font-family: 'Hubballi';
       margin-right: 8px;
       margin-bottom: 2px;
+    }
+
+    .logo {
+      margin-left: 15px;
+    }
+
+    .logo-small {
+      display: inline;
+    }
+
+    .logo-big {
+      display: none;
     }
 
     .image-item {
