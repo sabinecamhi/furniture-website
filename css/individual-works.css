@@ -23,7 +23,7 @@
   .menu-toggle {
     position: fixed;
     top: 65px;
-    right: 0;
+    right: 20px;
     text-decoration: none;
     color: rgb(129,185,222);
     display: flex;
@@ -50,11 +50,13 @@
     display: none;
   }
 
-  .sabine-camhi {
-    font-family: 'Codystar';
-    font-size: 6.25rem;
-    color: rgb(129,185,222);
-    margin: 30px 0 50px 25px;
+.logo-big {
+    margin-top: 0;
+    margin-left: 39px;
+  }
+
+  .logo-small {
+    display: none;
   }
 
   .wrapper {
@@ -97,20 +99,14 @@
 
   @media (max-width: 720px) {
 
-    .sabine-camhi {
-      font-size: 2.8rem;
-      margin: 25px 0 30px;
-      text-align: center;
-    }
-
-    .menu-toggle {
-      right: 3px;
-      font-size: 1.6rem;
-      margin-top: 9px;
-    }
-
     .menu-icon {
       display: none;
+    }
+	  
+    .menu-toggle {
+      right: 1px;
+      font-size: 1.9rem;
+      margin-top: 0;
     }
 
     .menu-icon-mobile {
@@ -119,6 +115,19 @@
       font-family: 'Hubballi';
       margin-right: 8px;
       margin-bottom: 2px;
+    }
+
+     .logo {
+      margin-left: 25px;
+      margin-bottom: 45px;
+    }
+
+    .logo-small {
+      display: inline;
+    }
+
+    .logo-big {
+      display: none;
     }
 
     .info p {
