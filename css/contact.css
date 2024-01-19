@@ -16,7 +16,7 @@
   .menu-toggle {
     position: fixed;
     top: 65px;
-    right: 0px;
+    right: 22px;
     text-decoration: none;
     color: rgb(129,185,222);
     display: flex;
@@ -43,12 +43,15 @@
     margin-right: -35px;
   }
 
-  .sabine-camhi {
+.logo {
     font-family: 'Codystar';
-    font-size: 6.25rem;
-    color: rgb(129,185,222);
-    margin: 30px 0 100px 33px;
-    white-space: nowrap;
+    font-size: 6rem;
+    color: rgb(233, 233, 233);
+    margin: 17px 0 20px 40px;
+  }
+
+  .logo-small {
+    display: none;
   }
 
   .contact-info {
@@ -92,7 +95,7 @@
 .contact-line p:nth-child(2),
 .contact-line p:nth-child(4) {
     text-decoration: underline;
-    margin-left: 50px;
+    margin-left: 60px;
     cursor: pointer;
 }
 
@@ -118,6 +121,7 @@
 .info-form textarea {
   padding: 10px;
   margin-bottom: 15px;
+  margin-left: 30px;
   border: none;
   outline: none;
   background-color: azure;
@@ -125,6 +129,7 @@
 
 .info-form textarea {
   resize: none;
+ margin-left: 34px;
 }
 
 .info-form div {
@@ -197,17 +202,12 @@ button:hover {
       overflow: hidden;  
       margin: 0;
   }
-  
-    .sabine-camhi {
-      font-size: 3rem;
-      margin: 25px 0 40px 0;
-      text-align: center;
-    }
+
 
     .menu-toggle {
-      right: 7px;
-      font-size: 1.6rem;
-      margin-top: 3%;
+      right: -22px;
+      font-size: 1.9rem;
+      margin-top: 0;
     }
 
     .menu-icon {
@@ -222,6 +222,19 @@ button:hover {
       margin-bottom: 2px;
     }
 
+    .logo {
+    margin-left: 22px;
+    margin-bottom: 5px;
+  }
+
+  .logo-small {
+    display: inline;
+  }
+
+  .logo-big {
+    display: none;
+  }
+	  
     .contact-info {
       flex-direction: column;
       align-items: flex-start;
@@ -240,7 +253,7 @@ button:hover {
 
 .info-left h2 {
   font-size: 1.8rem;
-  margin-left: 35%;
+  margin-left: 36%;
   
 }
 
@@ -253,10 +266,6 @@ button:hover {
   padding: 0;
   margin-top: 2%;
 }
-
-    /* .info-form label {
-      display: block;
-    } */
 
     .info-form label::after {
       background-color: rgb(129,185,222);
