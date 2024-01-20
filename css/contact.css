@@ -11,12 +11,13 @@
     background-color: azure;
     margin: 0;
     padding: 0;
+    overflow-y: auto;
   }
 
   .menu-toggle {
     position: fixed;
     top: 65px;
-    right: 22px;
+    right: 20px;
     text-decoration: none;
     color: rgb(129,185,222);
     display: flex;
