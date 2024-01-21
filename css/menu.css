@@ -30,13 +30,13 @@
   .menu-icon-mobile {
     display: none;
   }
-/* 
+
   .header {
-    padding: 20px;
-  } */
+    padding: 10px;
+  }
 
  .logo {
-    margin: 15px 0 20px 45px;
+   margin: 0 0 20px 15px;
   }
 
   .logo-small {
