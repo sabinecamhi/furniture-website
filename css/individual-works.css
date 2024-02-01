@@ -80,15 +80,13 @@
 .info {
     margin-bottom: 0;
     width: 100%;
-    text-align: center;
   }
   
   .info p {
     margin: 0;
     font-family: 'Hubballi';
     color: rgba(25, 70, 141, 0.67);
-    font-size: 1.6rem;
-    font-weight: 800;
+    font-size: 1.5rem;
   }
 
 
@@ -128,8 +126,19 @@
     .logo-big {
       display: none;
     }
+	  
+    .photo-container {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+
+    .info {
+     margin-left: 0.5rem;
+    }
 
     .info p {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
     }
 }
