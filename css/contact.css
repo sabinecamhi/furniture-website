@@ -42,13 +42,9 @@
     opacity: 0;
   }
 
-
   .logo {
     margin: 18px 0 10px 50px;
-  }
-
-  .logo-small {
-    display: none;
+    width: 18%;
   }
 
   .contact-info {
@@ -171,18 +167,11 @@ button:hover {
     display: inline;
     margin-right: 8px;
   }
-
+	  
   .logo {
     margin-left: 6%;
     margin-bottom: 5px;
-  }
-
-  .logo-small {
-    display: inline;
-  }
-
-  .logo-big {
-    display: none;
+    width: 30%
   }
 
   .contact-info {
