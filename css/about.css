@@ -42,12 +42,9 @@
     margin-right: -35px;
   }
 
- .logo {
-    margin: 18px 0 20px 50px;
-  }
-
-  .logo-small {
-    display: none;
+  .logo {
+    margin: 25px 0 20px 50px;
+    width: 18%;
   }
 
 .about-section {
@@ -109,17 +106,10 @@
           margin-bottom: 2px;
         }  
 
-     .logo {
+      .logo {
         margin-left: 6%;
         margin-bottom: 0;
-      }
-      
-      .logo-small {
-        display: inline;
-      }
-  
-      .logo-big {
-        display: none;
+        width: 30%
       }
 
         .about-section {
