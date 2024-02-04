@@ -46,14 +46,10 @@
     display: none;
   }
 
- .logo {
+  .logo {
     margin: 18px 0 0 0;
+    width: 18%;
   }
-
-  .logo-small {
-    display: none;
-  }
-
 
   .image-container {
     display: flex;
@@ -133,17 +129,10 @@
       margin-right: 8px;
       margin-bottom: 2px;
     }
-
-    .logo {
+	  
+   .logo {
       margin-left: 20px;
-    }
-
-    .logo-small {
-      display: inline;
-    }
-
-    .logo-big {
-      display: none;
+      width: 30%
     }
 
     .image-item {
