@@ -132,4 +132,16 @@
     .menu-list a {
       font-size: 1.8rem;
     }
+  
+    .social-icons {
+      text-align: center;
+    }
+
+    .instagram {
+    width: 20%;
+    }
+
+    .tiktok {
+   width: 20%;
+    }
   }
