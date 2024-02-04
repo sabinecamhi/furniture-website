@@ -55,3 +55,10 @@ function openEmail(email) {
 function changeCursor(element) {
     element.style.cursor = 'pointer';
 }
+
+function openInstagram(username) {
+  // Construct the Instagram profile URL using the provided username
+  var instagramURL = 'https://www.instagram.com/' + username.slice(1) + '/';
+
+  // Open the Instagram page in a new tab/window
+  window.open(instagramURL, '_blank');
