@@ -38,12 +38,9 @@
     background-color: rgba(250, 250, 247, 0.98);
   }
 
- .logo {
-   margin: 8px 0 0 40px;
-  }
-
-  .logo-small {
-    display: none;
+  .logo {
+    margin: 8px 0 0 40px;
+    width: 18%
   }
 
   .menu-list {
@@ -112,17 +109,10 @@
       margin-bottom: 2px;
     }
 
-      .logo {
+   .logo {
       margin-left: 4%;
       margin-bottom: 0;
-    }
-
-    .logo-small {
-      display: inline;
-    }
-
-    .logo-big {
-      display: none;
+      width: 30%;
     }
 
     .menu-list li {
