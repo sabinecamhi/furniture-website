@@ -14,7 +14,7 @@
 
   .menu-toggle {
     position: fixed;
-    top: 65px;
+    top: 70px;
     right: 20px;
     text-decoration: none;
     color: rgb(129,185,222);
@@ -43,7 +43,7 @@
   }
 
  .logo {
-    margin: 20px 0 20px 40px;
+    margin: 18px 0 20px 50px;
   }
 
   .logo-small {
@@ -65,7 +65,7 @@
 
 .designer img {
     border-radius: 50%;
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     margin-bottom: 10px;
 }
@@ -86,21 +86,12 @@
 
 
 
-    @media (max-width: 720px) {
+    @media (max-width: 768px) {
 
         body {
           margin: 0;
       }
-      
-      .logo-small {
-        display: inline;
-        margin: 0 0 0 -17px;
-      }
-  
-      .logo-big {
-        display: none;
-      }
-    
+
         .menu-toggle {
           font-size: 1.9rem;
           margin-top: 0;
@@ -114,10 +105,22 @@
         .menu-icon-mobile {
           display: inline;
           font-weight: 700;
-          font-family: 'Hubballi';
-          margin-right: 4px;
+          margin-right: 8px;
           margin-bottom: 2px;
-        }    
+        }  
+
+     .logo {
+        margin-left: 6%;
+        margin-bottom: 0;
+      }
+      
+      .logo-small {
+        display: inline;
+      }
+  
+      .logo-big {
+        display: none;
+      }
 
         .about-section {
             flex-direction: column;
@@ -146,12 +149,5 @@
         }
         
   }
-
-  @media (min-width: 721px) and (max-width: 1080px) {
-    .menu-toggle {
-      margin-top: 10%;
-    }
-
-}
   
   
