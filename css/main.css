@@ -76,10 +76,7 @@
 
   .logo {
     margin: 0 0 0 50px;
-  }
-  
-  .logo-small {
-    display: none;
+    width: 18%;
   }
 
   .menu-text,
@@ -135,18 +132,11 @@
       width: 12px;
       height: 2.5px;
     }
-	  
-    .logo {
+
+   .logo {
       margin-left: 6%;
-      margin-bottom: 45px;
-    }
-
-    .logo-small {
-      display: inline;
-    }
-
-    .logo-big {
-      display: none;
+      margin-bottom: 15px;
+      width: 30%
     }
 
     .social-icons {
