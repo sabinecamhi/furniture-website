@@ -50,12 +50,10 @@
     display: none;
   }
 
- .logo {
-    margin: 20px 0 0 55px;
-  }
 
-  .logo-small {
-    display: none;
+  .logo {
+    margin: 18px 0 0 50px;
+    width: 18%;
   }
 
   .wrapper {
@@ -112,17 +110,10 @@
       margin-bottom: 2px;
     }
 
-     .logo {
+   .logo {
       margin-left: 25px;
       margin-bottom: 45px;
-    }
-
-    .logo-small {
-      display: inline;
-    }
-
-    .logo-big {
-      display: none;
+      width: 30%
     }
 	  
     .photo-container {
