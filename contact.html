@@ -46,67 +46,68 @@
     </div>
 
     <section class="contact-info">
-      <div class="info-box">
-          <div class="info-left">
-            <h2>CONTACTS</h2>
-              <div class="contact-line">
-                    <p>PHONE</p>
-                    <p class="phone-link" onclick="makeCall('+306946104547')" onmouseover="changeCursor(this)">+306946104547</p>
-              </div>
-              <div class="contact-line">
-                    <p>EMAIL</p>
-                    <p class="email-link" onclick="openEmail('camhisabine@gmail.com')" onmouseover="changeCursor(this)">camhisabine@gmail.com</p>
-              </div>
+      <div class="info-left">
+        <h2>CONTACTS</h2>
+          <div class="contact-line">
+                <p>Phone</p>
+                <p class="phone-link" onclick="makeCall('+306946104547')" onmouseover="changeCursor(this)">+306946104547</p>
+          </div>
+          <div class="contact-line">
+                <p>Email</p>
+                <p class="email-link" onclick="openEmail('camhisabine@gmail.com')" onmouseover="changeCursor(this)">camhisabine@gmail.com</p>
+          </div>
+          <div class="contact-line">
+            <p>Instagram</p>
+            <p class="instagram-link" onclick="openInstagram('@sabinecamhi')" onmouseover="changeCursor(this)">@sabinecamhi</p>
+            <p class="instagram-link" onclick="openInstagram('@nicktrian')" onmouseover="changeCursor(this)">@nicktrian</p>
           </div>
       </div>
-
+    
+      <div class="info-box">
         <div class="info-form">
-                <form action="https://formspree.io/f/mleqerae" method="POST">
-                  <div>
-                    <label for="name">Name</label>
-                    <input 
-                        type="text" 
-                        name="name"
-                        id="name" 
-                        placeholder="Enter your name"
-                    />
-                    </div>
+          <form action="https://formspree.io/f/mleqerae" method="POST">
+            <div>
+              <label for="name">Name</label>
+              <input 
+                  type="text" 
+                  name="name"
+                  id="name"
+              />
+              </div>
+  
+              <div>
+               <label for="email">Email</label>
+               <input 
+                  type="email" 
+                  name="email"
+                  id="email"
+               /> 
+              </div>
+  
+              <div>
+               <label for="subject">Subject</label>
+               <input 
+                  type="text"
+                  name="subject" 
+                  id="subject"
+               /> 
+              </div>
+  
+              <div class="message-group">
+               <label for="message">Message</label>
+               <textarea 
+                  type="textarea"
+                  name="message"
+                  id="message" 
+                  rows="1"
+               ></textarea>
+              </div>
+  
+              <button type="submit">SEND MESSAGE</button>
+          </form>
+      </div>
+    </div>
 
-                    <div>
-                     <label for="email">Email</label>
-                     <input 
-                        type="email" 
-                        name="email"
-                        id="email" 
-                        placeholder="Enter your email"
-                     /> 
-                    </div>
-
-                    <div>
-                     <label for="subject">Subject</label>
-                     <input 
-                        type="text"
-                        name="subject" 
-                        id="subject"
-                        placeholder="Enter the subject"
-                     /> 
-                    </div>
-
-                    <div class="message-group">
-                     <label for="message">Message</label>
-                     <textarea 
-                        type="textarea"
-                        name="message"
-                        id="message" 
-                        rows="1"
-                        placeholder="Tell us about you"
-                     ></textarea>
-                    </div>
-
-                    <button type="submit">SEND MESSAGE</button>
-                </form>
-            </div>
-        </div>
     </section>
     <script src="./js/menu.js"></script>
 </body>
