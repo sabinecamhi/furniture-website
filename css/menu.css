@@ -68,6 +68,26 @@
   .menu-list li a:hover {
     color: rgba(130, 195, 260, 1);
   }
+
+ .social-icons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .instagram {
+    width: 25%;
+  }
+
+  .tiktok {
+    width: 25%;
+  }
   
 
   @media (max-width: 768px) {
