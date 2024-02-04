@@ -7,7 +7,7 @@
   }
 
   body {
-    background: linear-gradient(rgba(250, 250, 250, 0.8), rgba(185,214, 227,1), rgba(233,234,236,1));
+    background: linear-gradient(rgba(250, 250, 250, 0.8), rgba(30, 133, 250, 0.05), rgba(233,234,236,1));
     margin: 0;
     padding: 0;
   }
@@ -18,7 +18,7 @@
 
   .menu-toggle {
     position: fixed;
-    top: 65px;
+    top: 70px;
     right: 20px;
     text-decoration: none;
     color: rgb(129,185,222);
@@ -46,9 +46,8 @@
     display: none;
   }
 
- .logo-big {
-    margin-top: 0;
-    margin-left: 33px;
+ .logo {
+    margin: 18px 0 0 0;
   }
 
   .logo-small {
@@ -114,7 +113,7 @@
   }
 
 
-  @media screen and (min-width: 341px) and (max-width: 720px) {
+  @media screen and (min-width: 341px) and (max-width: 768px) {
     .container {
       margin: 0 10px 15px 10px;
     }
@@ -131,13 +130,12 @@
 
     .menu-icon-mobile {
       display: inline;
-      font-weight: 700;
       margin-right: 8px;
       margin-bottom: 2px;
     }
 
     .logo {
-      margin-left: 15px;
+      margin-left: 20px;
     }
 
     .logo-small {
