@@ -12,7 +12,6 @@ menuToggleLink.addEventListener('mouseout', function() {
 });
 
 
-
 function changeText(element, isHovered) {
     const menuText = element.querySelector('.menu-text');
   
@@ -62,3 +61,4 @@ function openInstagram(username) {
 
   // Open the Instagram page in a new tab/window
   window.open(instagramURL, '_blank');
+}
