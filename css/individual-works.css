@@ -20,6 +20,13 @@
     margin-bottom: 120px;
   }
 
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(250, 250, 250, 0);
+    z-index: 1000;
+}
+
   .menu-toggle {
     position: fixed;
     top: 70px;
@@ -112,8 +119,12 @@
 
    .logo {
       margin-left: 25px;
-      margin-bottom: 45px;
+      margin-bottom: 0;
       width: 30%
+    }
+
+    .wrapper {
+      margin-top: 200px;
     }
 	  
     .photo-container {
