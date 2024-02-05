@@ -37,6 +37,7 @@
     cursor: pointer;
     font-family: 'Hubballi';
     font-size: 2.5rem;
+    z-index: 1000;
   }
 
   .change-text {
@@ -61,9 +62,11 @@
   .logo {
     margin: 18px 0 0 50px;
     width: 18%;
+    margin-bottom: 0;
   }
 
   .wrapper {
+    margin-top: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
