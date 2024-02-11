@@ -104,15 +104,14 @@
 
     .menu-icon-mobile {
       display: inline;
-      font-weight: 700;
       margin-right: 8px;
       margin-bottom: 2px;
     }
 
    .logo {
-      margin-left: 4%;
+      margin-left: 15px;
       margin-bottom: 0;
-      width: 30%;
+      width: 32%;
     }
 
     .menu-list li {
